@@ -3,17 +3,31 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <section className="title">
+        <h1 id="name">Vida Nsiah</h1>
+      </section>
+
+      <div className="row justify-content-center">
+      <div className="col-6" id="about-section">
+
+            <img class="mb-5" src="https://user-images.githubusercontent.com/117393835/222885570-47aad525-a32b-4c75-836d-6a96cf0d1f28.jpeg"
+
+              alt="Vida Nsiah"
+              className="me-hero-img"
+            />
+        </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+            My name is Vida Nsiah. I live in United Kingdom. I am Senior Biomedical Scientist
+            seeking to change carrier. I am currently enrolled in  edX Trilogy Skills Frontend coding bootcamp. 
+            I am really enjoying and learning new language has been very interesting and I hope to continue to 
+            practice to become the best in the field.
+            
+          </p>
+          </div>
+
+          
+      
+
     </div>
   );
 }
