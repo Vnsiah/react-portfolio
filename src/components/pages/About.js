@@ -3,13 +3,26 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Page </h1>
+
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+        
+          </p>
+        </div>
+        </div>
+
+      <p className="text-xl mt-5">
+        I am a Senior BMS who want to become a web developer/designer. I want to work in both, backend and frontend programming. 
+       I have gain a lot of experience since I started the bootcamp. 
+        I'm open to learn and open to opportunities.
+        </p>
+      
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Software Developing or Web designer is the prefer job that I am seeking for. 
+      I have falling in love with coding because you can give a set of instructions to a computer and it will complete the task in a moment of time. 
+      Since then I am keen to learn more programming to make the world a better place for the future.
       </p>
     </div>
   );
