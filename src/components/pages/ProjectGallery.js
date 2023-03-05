@@ -1,9 +1,9 @@
 import React from "react";
 
-function About() {
+function ProjectGallery() {
   return (
     <div>
-      <h1>About Page </h1>
+      <h1>Project Gallery </h1>
 
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -28,4 +28,4 @@ function About() {
   );
 }
 
-export default About;
+export default ProjectGallery;
