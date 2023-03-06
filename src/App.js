@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
 import ProjectGallery from './components/pages/ProjectGallery';
-import Header from './components/pages/Header';
+// import Header from './components/pages/Header';
 import Contact from './components/pages/Contact';
-
+import Footer from './components/pages/Footer';
+import Project from './components/pages/Project';
 
 function App() {
   return (
@@ -18,11 +19,13 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/react-portfolio" element={<Home />} />
           <Route path="/react-portfolio/about" element={<ProjectGallery />} />
-          <Route path="/react-portfolio/blog" element={<Header />} />
+          {/* <Route path="/react-portfolio/header" element={<Header />} /> */}
+          <Route path="/react-portfolio/project" element={<Project />} />
           {/* Define a route that will have descendant routes */}
           <Route path="/react-portfolio/contact/*" element={<Contact />} />
         </Routes>
       </div>
+      <Footer></Footer>
     </Router>
   );
 }
