@@ -1,47 +1,65 @@
 import React from "react";
 
+//function for form reset
+function handleSubmit(e) {
+  setTimeout(() => {
+    e.target.reset();
+  }, 4000);
+}
 
 const Contact = () => {
   return (
-  
-      <div className="container">
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">@</span>
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
-        </div>
+ 
+     
+    
+    
+     <div className="formContainer">
+        <form
+          onSubmit={handleSubmit}
+          name="contact"
+          method="POST"
+          action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
+          className="flex flex-col w-50 md:w-1/2"
+        >
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Contact
+          </p>
+           <p className="py-6">Submit the form below to get in touch with me</p>
 
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
-        </div>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+            className=""
+          />
+          <br></br>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            className=""
+          />
+          <br></br>
+          <textarea
+            name="message"
+            placeholder="Enter your message"
+            rows="10"
+            required
+            className=""
+          ></textarea>
+          <br></br>
 
-        <div class="mb-3">
-          <label for="basic-url" class="form-label">Your vanity URL</label>
-          <div class="input-group">
-            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"></input>
-          </div>
-          <div class="form-text">Example help text goes outside the input group.</div>
-        </div>
+          <button type="submit" className=" ">
+            Send Message
+          </button>
+        </form>
+      </div>
 
-        <div class="input-group mb-3">
-          <span class="input-group-text">$</span>
-          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"></input>
-            <span class="input-group-text">.00</span>
-        </div>
+      
 
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username"></input>
-            <span class="input-group-text">@</span>
-            <input type="text" class="form-control" placeholder="Server" aria-label="Server"></input>
-            </div>
-
-            <div class="input-group">
-              <span class="input-group-text">With textarea</span>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
-        </div>
-      // </div>
+            
       );
 };
 

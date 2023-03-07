@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(111, 142, 161);
+    font-size: medium;
   }
   
   body {
@@ -17,14 +19,60 @@
   
   
   
-  .nav-tabs {
-    color: rgb(255, 74, 105);
+  .nav {
+    padding: 20px;
+    background-color: rgb(111, 142, 161);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+
+
+
   }
 
-  .h1 {
-    margin: auto 30px;
-    padding: 10px;
-    color:rgb(255, 74, 105)
+  .pageContainer {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
   }
+
+
+  .formContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+  }
+  h1 {
   
+    padding: 10px;
+    background-color: rgb(111, 142, 161);
+  }
+  h1, p {
+    font-weight: 700;
+  }
+  .h1 h1 {
+    font-size: 2.5rem;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(111, 142, 161);
+  }
+
+  .mb-5 {
+    margin-bottom: 3rem!important;
+
+
+  }
+ img {
+    vertical-align: middle;
+
+ }
+  
+ .name {
+  justify-content: center;
+ }
  

@@ -11,8 +11,9 @@ import Project from './components/pages/Project';
 function App() {
   return (
     <Router>
-      <div>
+     
         <NavTabs />
+        <div className="pageContainer">
         {/* Wrap Route elements in a Routes component */}
         <Routes basemname= "react-portfolio">
           {/* Define routes using the Route component to render different page components at different paths */}
