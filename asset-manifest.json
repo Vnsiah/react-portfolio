@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.c2baf377.js",
+    "main.css": "/react-portfolio/static/css/main.ae856617.css",
+    "main.js": "/react-portfolio/static/js/main.1f3ad761.js",
+    "static/media/FoonDER.jpg": "/react-portfolio/static/media/FoonDER.eb56895db9beadd4a6c0.jpg",
+    "static/media/WebDesign.jpg": "/react-portfolio/static/media/WebDesign.c1799e7034c89c84ad76.jpg",
+    "static/media/ReadmeGenerator.jpg": "/react-portfolio/static/media/ReadmeGenerator.8ad8786c719464675b5e.jpg",
+    "static/media/WeatherApp.jpg": "/react-portfolio/static/media/WeatherApp.e5c6d2a36abc79a2e65e.jpg",
+    "static/media/WorkDay.jpg": "/react-portfolio/static/media/WorkDay.87c8d9988bb8105482b3.jpg",
+    "static/media/TeamProfileGenerator.jpg": "/react-portfolio/static/media/TeamProfileGenerator.a042cedf5865608e7663.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.c2baf377.js.map": "/react-portfolio/static/js/main.c2baf377.js.map"
+    "main.ae856617.css.map": "/react-portfolio/static/css/main.ae856617.css.map",
+    "main.1f3ad761.js.map": "/react-portfolio/static/js/main.1f3ad761.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.c2baf377.js"
+    "static/css/main.ae856617.css",
+    "static/js/main.1f3ad761.js"
   ]
 }
