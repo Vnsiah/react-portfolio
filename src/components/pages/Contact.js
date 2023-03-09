@@ -19,9 +19,9 @@ const Contact = () => {
           name="contact"
           method="POST"
           action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
-          className="flex flex-col w-50 md:w-1/2"
+          className=""
         >
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="">
             Contact
           </p>
            <p className="py-6">Submit the form below to get in touch with me</p>

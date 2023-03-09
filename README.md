@@ -8,7 +8,6 @@ React-Portfolio
 - [Description](#description)
 - [Technologies used](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
