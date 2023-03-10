@@ -38,6 +38,7 @@ const Contact = () => {
             type="email"
             name="email"
             placeholder="Enter your email"
+            cols="50"
             required
             className=""
           />
@@ -46,6 +47,7 @@ const Contact = () => {
             name="message"
             placeholder="Enter your message"
             rows="10"
+            cols="50"
             required
             className=""
           ></textarea>
