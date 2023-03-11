@@ -22,9 +22,9 @@ const Contact = () => {
           className=""
         >
           <p className="">
-            Contact
+            CONTACT
           </p>
-           <p className="py-6">Submit the form below to get in touch with me</p>
+           <p className="py-6">Please fill the form to get in touch with me</p>
 
           <input
             type="text"
