@@ -22,7 +22,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Project Gallery
+          Skills
         </NavLink>
       </li>
       <li className="nav-item">

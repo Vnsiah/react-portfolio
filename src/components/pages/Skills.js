@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectGallery() {
+function Skills() {
   return (
     <div>
       <h1>Project Gallery </h1>
@@ -28,4 +28,4 @@ function ProjectGallery() {
   );
 }
 
-export default ProjectGallery;
+export default Skills;

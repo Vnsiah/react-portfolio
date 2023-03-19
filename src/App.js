@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
-import ProjectGallery from './components/pages/ProjectGallery';
+import Skills from './components/pages/Skills';
 // import Header from './components/pages/Header';
 import Contact from './components/pages/Contact';
 import Footer from './components/pages/Footer';
@@ -19,7 +19,7 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/react-portfolio" element={<Home />} />
-          <Route path="/react-portfolio/about" element={<ProjectGallery />} />
+          <Route path="/react-portfolio/Skills" element={<Skills />} />
           {/* <Route path="/react-portfolio/header" element={<Header />} /> */}
           <Route path="/react-portfolio/project" element={<Project />} />
           {/* Define a route that will have descendant routes */}
